@@ -132,6 +132,21 @@ footer {
   color: #000;
   margin-top: 20px;
 }
+/*link default colour*/
+#contact a {
+  color: blue;
+  stroke: blue;
+}
+/*link hover colour*/
+#contact a:hover {
+  cursor: pointer;
+  color: lightblue;
+  stroke: lightblue;
+}
+/*visited link color*/
+#contact a:visited {
+  color: darkblue;
+}
 
 /* Responsive */
 @media only screen and (max-width: 724px) {
